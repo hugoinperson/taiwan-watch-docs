@@ -1,13 +1,9 @@
 {
   "gitbook": ">3.0.0",
-  "plugins": ["edit-link", "theme-vuejs", "-fontsettings", "github"],
+  "plugins": ["-fontsettings", "github"],
   "pluginsConfig": {
-    "edit-link": {
-      "base": "https://github.com/vuejs/vue-ssr-docs/edit/master/",
-      "label": "Edit This Page"
-    },
     "github": {
-      "url": "https://github.com/vuejs/vue-ssr-docs/"
+      "url": "https://github.com/hugoinperson/taiwan-watch-docs"
     }
   },
   "links": {
@@ -15,8 +11,5 @@
       "facebook": false,
       "twitter": false
     }
-  },
-  "styles": {
-    "website": "styles/website.css"
   }
 }
