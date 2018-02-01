@@ -23,7 +23,11 @@
 
 <ul class="summary">
   {% set _divider = false %} {% if config.links.sidebar %} {% for linkTitle, link in config.links.sidebar %} {% set _divider
-  = true %} {% endfor %} {% endif %} {% if _divider %}
+  = true %}
+  <li>
+    <a href="https://dev.taiwanwatch.org" target="_blank" class="custom-link">Taiwan Watch Site</a>
+  </li>
+  {% endfor %} {% endif %} {% if _divider %}
   <li class="divider"></li>
   {% endif %} {% for part in summary.parts %} {% if part.title %}
   <li class="header">{{ part.title }}</li>
