@@ -1,38 +1,25 @@
 # Summary
 
-### Getting Started
+### Introduction
 
-* [About this documentation](README.md)
-* [Installation and Setup](setup.md)
+* [The project](README.md)
+* [About ACT](act.md)
 
-### Your Content
+### Developer
 
-* [Directory structure](structure.md)
-* [Pages and Summary](pages.md)
-* [Configuration](config.md)
-* [Glossary](lexicon.md)
-* [Multi-Lingual](languages.md)
-* [Markdown](syntax/markdown.md)
-  * [Headings](syntax/markdown.md#headings)
-  * [Paragraphs](syntax/markdown.md#paragraphs)
-  * [Lists](syntax/markdown.md#lists)
-  * [Links](syntax/markdown.md#links)
-  * [Images](syntax/markdown.md#images)
-  * [Blockquotes](syntax/markdown.md#blockquotes)
-  * [Tables](syntax/markdown.md#tables)
-  * [Code](syntax/markdown.md#code)
-  * [HTML](syntax/markdown.md#html)
-  * [Footnotes](syntax/markdown.md#footnotes)
-* [AsciiDoc](syntax/asciidoc.md)
-* [eBook and PDF](ebook.md)
+* [Website architecture](structure.md)
+* [Our data](pages.md)
+* [API](syntax/markdown.md)
+  * [Bills](syntax/markdown.md#headings)
+  * [Members](syntax/markdown.md#paragraphs)
 
-### Customization
+### U.S.-Taiwan Issues
 
-* [Templating](templating/README.md)
+* [Taiwan Relations Act](templating/README.md)
   * [Content References](templating/conrefs.md)
   * [Variables](templating/variables.md)
   * [Builtin](templating/builtin.md)
-* [Plugins](plugins/README.md)
+* [One China Policy](plugins/README.md)
   * [Create a plugin](plugins/create.md)
   * [Hooks](plugins/hooks.md)
   * [Blocks](plugins/blocks.md)
